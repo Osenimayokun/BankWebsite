@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header></header>
+    <!-- LOGIN SECTION -->
+    <nav>
+      <p class="welcome active">Purple Bank</p>
+      <img src="images/wallet_8728814.png" alt="" />
+      <form action="" class="login">
+        <input
+          type="text"
+          class="login-username2 login__input"
+          placeholder="Username"
+        />
+        <input
+          type="password"
+          class="login-PIN2 login__input"
+          maxlength="4"
+          placeholder="PIN"
+        />
+        <button class="login-btn2 login__btn">&rarr;</button>
+      </form>
+    </nav>
+    <!-- FIRST SECTION -->
+    <div class="container none">
+      <div class="grid">
+        <div class="section1">
+          <div class="left-section">
+            <div class="flex">
+              <div class="sub-heading">My Card</div>
+              <div class="menu-icon">...</div>
+            </div>
+            <div class="card">
+              <div>
+                <div class="card-content">
+                  <div class="head">
+                    <span class="logo">
+                      <img src="images/logo.png" alt="" />
+                      <h5>Master Card</h5>
+                    </span>
+                    <img src="images/chip.png" alt="" class="chip" />
+                  </div>
+                  <div class="card-details">
+                    <div class="name-number">
+                      <h6>Card Number</h6>
+                      <h5 class="card-number">8984 8517 8544 5874</h5>
+                      <h5 class="card-name">Oseni Mayokun</h5>
+                    </div>
+                    <div class="valid-date">
+                      <h6>Valid Thru</h6>
+                      <h5 class="card-date">4/29</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex">
+              <div class="des">Total funds</div>
+              <p style="cursor: pointer">Detalis</p>
+            </div>
+            <div class="flex">
+              <div class="total-balance total-funds">$600.88</div>
+              <!-- <p>&rArr;</p> -->
+            </div>
+            <!-- SAVING BOX -->
+            <div class="savings-goal">
+              <div class="flex">
+                <div class="more">
+                  <h2>Currency</h2>
+                  <div class="more-des currency-name">USD/US Dollar</div>
+                </div>
+                <div class="more">
+                  <h2>Target</h2>
+                  <div class="more-des active target">$5000</div>
+                </div>
+                <div class="more">
+                  <h2>Type</h2>
+                  <div class="more-des account-type">Current</div>
+                </div>
+              </div>
+
+              <div class="flex">
+                <div class="flex">
+                  <img
+                    src="images/wallet_8728814.png"
+                    class="wallet-icon"
+                    alt=""
+                  />
+                  <div class="save-text">Savings</div>
+                </div>
+                <div class="menu-icon">...</div>
+              </div>
+              <div class="bar savings-bar">
+                <div class="outer-bar outer-savings-bar">
+                  <div class="inner-bar inner-savings-bar"></div>
+                </div>
+                <p class="target-not">
+                  <span class="saving-reach">70</span> more to reach<span
+                    class="active saving-goal"
+                  >
+                    $100,000</span
+                  >
+                </p>
+              </div>
+            </div>
+            <!-- SHORT ACCOUNT SUMMARY -->
+            <div class="short-summary">
+              <div class="flex">
+                <div class="sum-box">
+                  <img
+                    src="images/wallet_8728814.png"
+                    alt=""
+                    class="wallet-icon-sum"
+                  />
+                  <div class="sum-textbox">
+                    <div class="sum-text">Income</div>
+                    <div
+                      class="sum-balance sum-value income"
+                      style="color: green"
+                    >
+                      $15,000
+                    </div>
+                  </div>
+                </div>
+                <div class="sum-box">
+                  <img
+                    src="images/money_5103883.png"
+                    alt=""
+                    class="wallet-icon-sum"
+                  />
+                  <div class="sum-textbox">
+                    <div class="sum-text">Expenses</div>
+                    <div class="sum-balance sum-value expenses">$15,000</div>
+                  </div>
+                </div>
+                <div class="sum-box">
+                  <img src="images/bill.png" alt="" class="wallet-icon-sum" />
+                  <div class="sum-textbox">
+                    <div class="sum-text">Savings</div>
+                    <div
+                      class="sum-balance sum-value saved"
+                      style="color: green"
+                    >
+                      $15,000
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- LOan AND SAVING BUTTON -->
+            <div class="btns">
+              <div class="btn btn1 loan-btn-pop">Get loan</div>
+              <div class="btn btn2 save-btn-pop">Save</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- BALANCE AND OTHER SECTION -->
+        <div class="section2">
+          <div class="middle-section">
+            <div class="flex">
+              <div class="total-balance-box">
+                <div class="total-balance-section green">
+                  <img
+                    src="images/wallet_8728814.png"
+                    alt=""
+                    class="wallet-icon-sum"
+                  />
+                  <div class="total-balance-textbox">
+                    <div class="name">Balance</div>
+                    <div class="balance-total">$600.88</div>
+                  </div>
+                </div>
+              </div>
+              <div class="total-balance-box">
+                <div class="total-balance-section red">
+                  <img
+                    src="images/money_5103883.png"
+                    alt=""
+                    class="wallet-icon-sum"
+                  />
+                  <div class="total-balance-textbox">
+                    <div class="name">Loned</div>
+                    <div class="total-loan">$600.88</div>
+                  </div>
+                </div>
+              </div>
+              <div class="total-balance-box">
+                <div class="total-balance-section yellow">
+                  <img src="images/bill.png" alt="" class="wallet-icon-sum" />
+                  <div class="total-balance-textbox">
+                    <div class="name">Savings</div>
+                    <div class="saved total-saved">$600.88</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- REPAY LOAN AND WITHDRAWAL SECTION -->
+            <div class="more-transaction">
+              <div class="flex">
+                <div class="more-trans-box repay-loan-pop">
+                  <img
+                    src="images/top-up_12305734.png"
+                    class="img-trans-box"
+                    alt=""
+                  />
+                  <div class="more-text active">Repay loan</div>
+                </div>
+                <div class="more-trans-box withdraw-savings-btn-pop">
+                  <img
+                    src="images/money_8900949.png"
+                    class="img-trans-box"
+                    alt=""
+                  />
+                  <div class="more-text active">Withdraw savings</div>
+                </div>
+                <div class="more-trans-box top-up-btn-pop">
+                  <img
+                    src="images/transfer_463263.png"
+                    class="img-trans-box"
+                    alt=""
+                  />
+                  <div class="more-text active">Top-up</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- TRANSACTION HISTORY  -->
+        <div class="section3">
+          <div class="right-section">
+            <div class="flex" style="margin-bottom: 2.5rem">
+              <div class="sub-heading">Account Details</div>
+              <div class="menu-icon">...</div>
+            </div>
+            <div class="flex">
+              <div class="accountname">Account Owner</div>
+              <div class="accountname active acc-name">Oseni Mayokun</div>
+            </div>
+            <div class="flex">
+              <div class="accountname">UserName</div>
+              <div class="accountname active acc-user">OM</div>
+            </div>
+            <div class="flex">
+              <div class="accountname">Account Number</div>
+              <div class="accountname active acc-num">0457848524</div>
+            </div>
+            <div class="flex">
+              <div class="accountname">Bank Name</div>
+              <div class="accountname active">Purple Bank</div>
+            </div>
+            <div class="flex">
+              <div class="accountname">Card number</div>
+              <div class="accountname active acc-card-num">8778 4888 1448</div>
+            </div>
+          </div>
+        </div>
+        <div class="section4">
+          <div class="bottom-middle-section">
+            <div class="transaction-heading flex">
+              <div class="sub-heading">Transactions</div>
+              <div class="calendar">
+                <div class="month">
+                  <span class="active">From</span>
+                  <span class="from-date"> December 2025 </span> &darr;
+                </div>
+
+                <div class="month">
+                  <span class="active">To</span>
+                  <span class="to-date"> December 2025 </span>&darr;
+                </div>
+              </div>
+            </div>
+            <div class="ref">
+              <div class="small-heading">Refrence</div>
+              <div class="small-heading">Date</div>
+              <div class="small-heading">Status</div>
+              <div class="small-heading">Amount</div>
+            </div>
+            <div class="movements-box">
+              <div class="movements ref">
+                <div class="ref-name">From John Doe</div>
+                <div class="date">23/05/2025</div>
+                <div class="movements-type success-status">Success</div>
+                <div class="amount color-green">$500</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--TRANSFER SECTION  -->
+        <div class="section5">
+          <div class="bottom-right-section">
+            <div class="flex">
+              <div class="sub-heading">Money Transfer</div>
+              <div class="menu-icon">...</div>
+            </div>
+            <div class="savings-goal">
+              <div class="flex">
+                <div class="more">
+                  <h2>Tier</h2>
+                  <div class="more-des daliy-limit-level">Level 3</div>
+                </div>
+                <div class="more">
+                  <h2>Daily Limit</h2>
+                  <div class="more-des active daily-limit-amount">$200,000</div>
+                </div>
+                <div class="more">
+                  <h2>ID</h2>
+                  <div class="more-des daily-limit-ver">NIN</div>
+                </div>
+              </div>
+              <div class="flex">
+                <div class="flex">
+                  <img
+                    src="images/wallet_8728814.png"
+                    class="wallet-icon"
+                    alt=""
+                  />
+                  <div class="save-text">Transfer Limit</div>
+                </div>
+                <div class="menu-icon">...</div>
+              </div>
+              <div class="bar transfer-bar">
+                <div class="outer-bar transfer-outer-bar">
+                  <div class="inner-bar transfer-inner-bar"></div>
+                </div>
+                <p class="transfer-notice">
+                  You've spent
+                  <span class="daily-limit-reach active">250</span> out of your
+                  daily limit
+                </p>
+              </div>
+            </div>
+            <div class="transferring-section">
+              <div class="save-text">Amount to Send</div>
+              <form class="transfer-form">
+                <input
+                  type="text"
+                  class="transfer-box transfer-to"
+                  placeholder="Enter Receiver's UserName"
+                />
+                <div class="check active">Check</div>
+                <ul class="receiver-name none"></ul>
+                <input
+                  type="text"
+                  class="transfer-box transfer-amount"
+                  placeholder="Enter Amount to send"
+                />
+                <div class="btns">
+                  <button class="btn btn1 clear-btn">Clear</button>
+                  <button class="btn btn2 transfer-btn">Transfer</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONFIRMATION BUTTON -->
+    <div class="confirm hidden">
+      <div class="message red-border">
+        <div class="cover">
+          <div class="icon">&check;</div>
+        </div>
+        <div class="textbox">
+          <h2 class="status-message">Saved Successfully</h2>
+          <p class="des-message">Your changes have been saved successfully</p>
+        </div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <div class="error hidden">
+      <div class="message error-red">
+        <div class="cover">
+          <div class="icon red-icon">&times;</div>
+        </div>
+        <div class="textbox">
+          <h2 class="status-message error-message">Saved Successfully</h2>
+          <p class="des-message des-error">
+            Your changes have been saved successfully
+          </p>
+        </div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <!-- POP FORMS -->
+    <!--  -->
+    <div class="modal get-loan-modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Request Loan <br />
+        in just <span class="highlight">5 minutes</span>
+      </h2>
+      <div class="grant">
+        You qualify for a loan of <span class="active display-grant">$5</span>
+      </div>
+      <form>
+        <div class="modal__form">
+          <label>Amount</label>
+          <input type="number" class="loan-amount" />
+          <label>Confirm PIN</label>
+          <input type="password" class="loan-pin" />
+        </div>
+        <div class="btns">
+          <button class="btn btn1 clear-btn">Clear</button>
+          <button class="btn btn2 get-loan">Get loan</button>
+        </div>
+      </form>
+    </div>
+    <div class="modal hidden save-modal">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Better Rate<br />
+        when <span class="highlight">you Save</span>
+      </h2>
+      <form>
+        <div class="modal__form">
+          <label>Amount</label>
+          <input type="number" class="save-amount" />
+          <label>Confirm PIN</label>
+          <input type="password" class="save-pin" />
+        </div>
+        <div class="btns">
+          <button class="btn btn1 clear-btn">Clear</button>
+          <button class="btn btn2 get-save">Save Now</button>
+        </div>
+      </form>
+    </div>
+    <div class="modal repay-modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Repay now <br />
+        for <span class="highlight">Better Rate</span>
+      </h2>
+      <form>
+        <div class="modal__form">
+          <label>Amount</label>
+          <input type="number" class="repay-amount" />
+          <label>Confirm PIN</label>
+          <input type="password" class="repay-pin" />
+        </div>
+        <div class="btns">
+          <button class="btn btn1 clear-btn">Clear</button>
+          <button class="btn btn2 get-repay">Repay Loan</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="modal withdraw-save-modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Withdraw Savings<br />
+        Works <span class="highlight">Fast</span>
+      </h2>
+      <form>
+        <div class="modal__form">
+          <label>Amount</label>
+          <input type="number" class="withdraw-save-amount" />
+          <label>Confirm PIN</label>
+          <input type="password" class="withdraw-save-pin" />
+        </div>
+        <div class="btns">
+          <button class="btn btn1 clear-btn">Clear</button>
+          <button class="btn btn2 get-withdrawal-save">Withdraw</button>
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
